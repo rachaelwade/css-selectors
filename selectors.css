@@ -1,13 +1,23 @@
 /* tag selectors */
 
-header {
+nav {
+    display:flex;
     border-style: solid;
     border: 1px solid goldenrod;
     list-style: none;
+    padding: 1em;
+}
+
+nav a {
+    padding: .1em 1em;
 }
 
 .disabled {
     color:  gray;
+}
+
+a .disabled {
+    color: purple;
 }
 
 .active {
@@ -16,4 +26,8 @@ header {
 
 .parent {
     color: red;
+}
+
+.grandparent > h4 {
+    border: .1px solid;
 }
