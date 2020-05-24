@@ -1,0 +1,19 @@
+/* tag selectors */
+
+header {
+    border-style: solid;
+    border: 1px solid goldenrod;
+    list-style: none;
+}
+
+.disabled {
+    color:  gray;
+}
+
+.active {
+    color: yellow;
+}
+
+.parent {
+    color: red;
+}
